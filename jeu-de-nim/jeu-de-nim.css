@@ -1,0 +1,31 @@
+/* .embed-responsive{margin-top: 40px;} */
+#error2 {
+    font-size: 0.8em;
+    color: red;
+} 
+#error1{
+    font-size: 0.8em;
+    color: red;
+}
+
+#joueur {
+    color: crimson;
+}
+
+
+.allu {
+    background-color: crimson;
+    height: 55px;
+    width: 19px;
+    cursor: pointer;
+}
+
+.begin {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 20px;
+}
