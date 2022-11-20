@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Projet Javascript</title>
+
+  <link rel="stylesheet" href="jeu-de-nim.css">  
+
+</head>
+
+<body>
+
+  <h1>Jeu de Nim</h1>
+
+  <div class="container">
+
+    <div id="init">
+      <p>Définissez votre nombre de bâtonnets pour la partie :</p>
+      <button type="button" class="begin" onclick="setup('rangeeDeBatonnets','jeu','nb')">Commencer la partie</button>
+      <span>avec</span>
+      <input type="text" id="nb" name="nb" size="3" value=""/>
+      <span>bâtonnets</span>
+      <span id="error1"></span>
+    </div>
+
+      <h2 id="joueur"></h2>
+
+      <div id="interfaceJeu">
+        <div id="jeu">
+          
+        </div>
+        
+        <!-- tableau contenant le futur nombre de bâtonnets -->
+        <table>
+          <tr id="rangeeDeBatonnets"> <!-- une ligne pour le tableau-->
+            <td></td> <!-- une colonne, ce nbre change en fonction du nbre de bâtonnets -->
+          </tr>
+        </table>
+      </div>
+
+  </div>
+
+  <script type="text/javascript" src="jeu-de-nim.js"></script>
+
+</body>
+</html>
